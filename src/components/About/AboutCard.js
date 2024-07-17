@@ -8,33 +8,44 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hello, I am, <span className="purple">Jenna Zawaski, </span>
+            a passionate Full-Stack Web Developer with a knack for creating
+            dynamic and responsive web applications.
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I thrive on building seamless user experiences and efficient server-side logic.
+            Whether I'm crafting a sleek interface with React or developing robust backend
+            solutions with Node and Express, I am dedicated to delivering high-quality,
+            scalable applications.
+            <br />
+            <br />
+            Over the years, I've worked on numerous projects that have honed my skills
+            and expanded my knowledge. My journey in web development is driven by a constant
+            desire to learn and evolve with the ever-changing landscape of technology.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Retail Therapy 💁‍♀️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Golfing 🏌️‍♀️
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Writing Tech Blogs 💻
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Traveling ✈️
             </li>
           </ul>
-
+          <br />
+          <br />
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "JavaScript is my love language!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Yours Truly 💋</footer>
         </blockquote>
       </Card.Body>
     </Card>
