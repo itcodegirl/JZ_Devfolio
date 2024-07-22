@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeImage from "../../Assets/home-image.png";
+import homeLogo from "../../Assets/home-image.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -22,14 +22,12 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'm
+                I'M
                 <strong className="main-name"> Jenna Zawaski</strong>
               </h1>
-              <br />
-              <br />
-              <div style={{ padding: 15, textAlign: "left" }}>
+
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                <br />
                 <br />
                 <Type2 />
               </div>
@@ -37,9 +35,9 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeImage}
+                src={homeLogo}
                 alt="home pic"
-                className="homeImage"
+                className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
@@ -49,6 +47,10 @@ function Home() {
       <Home2 />
     </section>
   );
-}
+};
+
+
+//document.write("<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='http://www.youtube.com/embed/W-Q7RMpINVo'frameborder='0' allowFullScreen></iframe>");
+
 
 export default Home;

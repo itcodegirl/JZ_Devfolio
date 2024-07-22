@@ -1,0 +1,42 @@
+/* .quote-card-view {
+	/* Your existing styles */
+
+.film-strip {
+	display: flex;
+	align-items: center;
+	background-color: black;
+	padding: 20px;
+	border: 5px solid white;
+	height: 200px;
+	/* Fixed height for the film strip */
+	box-sizing: border-box;
+}
+
+.film-strip .holes {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.film-strip .hole {
+	width: 10px;
+	height: 10px;
+	background-color: white;
+}
+
+.film-strip .images {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	overflow: hidden;
+	/* Ensures images do not overflow the film strip */
+}
+
+.film-strip .images img {
+	height: 100%;
+	width: auto;
+	margin: 0 10px;
+	/* Adjust the margin between images */
+}
